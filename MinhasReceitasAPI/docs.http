@@ -1,0 +1,26 @@
+### Listar todas as receitas
+GET http://localhost:5217/api/receitas
+
+### Buscar receita por ID
+GET http://localhost:5217/api/receitas/1
+
+### Cadastrar nova receita
+POST http://localhost:5217/api/receitas
+Content-Type: application/json
+
+{
+  "nome": "Bolo de Chocolate",
+  "ingredientes": "Farinha, ovos, chocolate"
+}
+
+### Atualizar ingredientes de uma receita
+PUT http://localhost:5217/api/receitas/1
+Content-Type: application/json
+
+{
+  "nome": "Caipirinha",
+  "ingredientes": "Cachaça, água, cana de acucar, açúcar, limão"
+}
+
+### Remover uma receita
+DELETE http://localhost:5217/api/receitas/1
