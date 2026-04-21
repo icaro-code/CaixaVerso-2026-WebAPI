@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desenvolvedor\\Desktop\\WebAPI\\ReceitasDigitais\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj": {}
+    "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desenvolvedor\\Desktop\\WebAPI\\ReceitasDigitais\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj": {
+    "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desenvolvedor\\Desktop\\WebAPI\\ReceitasDigitais\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj",
+        "projectUniqueName": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj",
         "projectName": "MinhasReceitasAPI",
-        "projectPath": "C:\\Users\\Desenvolvedor\\Desktop\\WebAPI\\ReceitasDigitais\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj",
+        "projectPath": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\MinhasReceitasAPI\\MinhasReceitasAPI.csproj",
         "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desenvolvedor\\Desktop\\WebAPI\\ReceitasDigitais\\MinhasReceitasAPI\\obj\\",
+        "outputPath": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\MinhasReceitasAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
