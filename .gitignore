@@ -1,0 +1,44 @@
+# Build e binários
+bin/
+obj/
+out/
+
+# Logs
+*.log
+
+# Configurações locais
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Cache do VS Code
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.ncb
+*.swp
+
+# Publicações
+*.publish.xml
+
+# Testes e cobertura
+TestResults/
+*.coverage
+*.coveragexml
+
+# Pacotes NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Dados sensíveis
+appsettings.Development.json
+secrets.json
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
