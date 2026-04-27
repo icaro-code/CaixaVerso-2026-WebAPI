@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj": {}
+    "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj": {
+    "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
+        "projectUniqueName": "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
         "projectName": "APIGestaoUsuarios",
-        "projectPath": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
+        "projectPath": "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
         "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\obj\\",
+        "outputPath": "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

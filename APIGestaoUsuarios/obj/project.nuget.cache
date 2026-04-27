@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RYYwxHbliwk=",
+  "dgSpecHash": "ZQ/TcRjsyA8=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
+  "projectFilePath": "C:\\Users\\Desenvolvedor\\Desktop\\CaixaVerso-2026-WebAPI\\APIGestaoUsuarios\\APIGestaoUsuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desenvolvedor\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\Desenvolvedor\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
