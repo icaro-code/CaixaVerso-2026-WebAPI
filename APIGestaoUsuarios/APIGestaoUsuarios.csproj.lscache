@@ -55,24 +55,25 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
-Aplication/
- Interfaces/IUsuarioRepository.cs
- Services/IUsuarioService.cs
-Controllers/UsuariosController.cs
-Domain/Entities/Usuario.cs
-Extentions/
- CorsExtension.cs
- JsonExtension.cs
-Filters/ApiResponseFilter.cs
-Infrastructure/
- Repositories/UsuarioRepository.cs
- Security/PasswordHasher.cs
-Middleware/RequestTimingMiddleware.cs
+Controllers/UsuarioController.cs
+DTOs/UsuarioDto.cs
+Filters/ResponseWrapperFilter.cs
+Interfaces/
+ IUsuarioRepository.cs
+ IUsuarioService.cs
+Middleware/RequestLoggingMiddleware.cs
+Models/Usuario.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  APIGestaoUsuarios.AssemblyInfo.cs
  APIGestaoUsuarios.GlobalUsings.g.cs
 Program.cs
+Repositories/UsuarioRepository.cs
+Services/UsuarioService.cs
+Utils/
+ DateTimeConverter.cs
+ PasswordHasher.cs
+ SnakeCaseNamingPolicy.cs
 
 [metadataReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/10.0.5/ref/net10.0/

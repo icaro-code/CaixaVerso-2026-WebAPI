@@ -34,3 +34,4 @@ C:\Users\Desenvolvedor\Desktop\CaixaVerso-2026-WebAPI\APIGestaoUsuarios\obj\Debu
 C:\Users\Desenvolvedor\Desktop\CaixaVerso-2026-WebAPI\APIGestaoUsuarios\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Desenvolvedor\Desktop\CaixaVerso-2026-WebAPI\APIGestaoUsuarios\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Desenvolvedor\Desktop\CaixaVerso-2026-WebAPI\APIGestaoUsuarios\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Desenvolvedor\Desktop\CaixaVerso-2026-WebAPI\APIGestaoUsuarios\obj\Debug\net10.0\APIGestaoUsuarios.sourcelink.json
