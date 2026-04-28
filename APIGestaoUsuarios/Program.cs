@@ -1,3 +1,6 @@
+using APIGestaoUsuarios.Aplication.Services;
+using APIGestaoUsuarios.Interfaces;
+using APIGestaoUsuarios.Repositories;
 using APIGestaoUsuarios.Utils; // garante acesso ao DateTimeConverter e SnakeCaseNamingPolicy
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
@@ -18,6 +21,10 @@ builder.Services.Configure<JsonOptions>(options =>
 });
 
 builder.Services.AddControllers();
+// Registro dos serviços e repositórios
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
