@@ -6,8 +6,9 @@ namespace APIGestaoUsuarios.Interfaces
     {
         Task<Usuario> CadastrarAsync(string nome, string email, string senha, string? cargo);
         Task<IEnumerable<Usuario>> ListarAsync();
-        Task<Usuario?> BuscarPorEmailAsync(string email);   // <- permite null
-        Task<Usuario?> AtualizarAsync(string email, string nome, string? cargo); // <- permite null
-        Task<Usuario?> DesativarAsync(string email);        // <- permite null
+        Task<Usuario?> BuscarPorIdAsync(Guid id);
+        Task<Usuario?> AtualizarPorIdAsync(Guid id, string? nome, string? cargo); // <-- ajuste aqui
+        Task<Usuario?> DesativarPorIdAsync(Guid id);
     }
+
 }

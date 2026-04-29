@@ -1,6 +1,9 @@
 using APIGestaoUsuarios.Aplication.Services;
+using APIGestaoUsuarios.Filters;
 using APIGestaoUsuarios.Interfaces;
+using APIGestaoUsuarios.Middleware;
 using APIGestaoUsuarios.Repositories;
+using APIGestaoUsuarios.Services;
 using APIGestaoUsuarios.Utils; // garante acesso ao DateTimeConverter e SnakeCaseNamingPolicy
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
@@ -20,10 +23,16 @@ builder.Services.Configure<JsonOptions>(options =>
     options.JsonSerializerOptions.Converters.Add(new DateTimeConverter());
 });
 
-builder.Services.AddControllers();
+// Controllers + filtro global
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ResponseWrapperFilter>();
+});
+
 // Registro dos serviços e repositórios
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<AuditoriaService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -37,6 +46,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseAuthorization();
 app.MapControllers();
 
