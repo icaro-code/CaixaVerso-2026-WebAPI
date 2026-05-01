@@ -1,225 +1,225 @@
 {
-	"info": {
-		"_postman_id": "b30f0c29-3145-4112-bcc6-b73587f1830b",
-		"name": "API Gestão de Usuários",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "54446270",
-		"_collection_link": "https://icaro-code-637541.postman.co/workspace/Icaro's-Workspace~c1a56cc5-bbd1-4176-8825-77b83aa95d02/collection/54446270-b30f0c29-3145-4112-bcc6-b73587f1830b?action=share&source=collection_link&creator=54446270"
-	},
-	"item": [
-		{
-			"name": "Cadastrar Usuários",
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"Ícaro Roberto\",\r\n  \"email\": \"icaro@yahoo.com.br\",\r\n  \"senha\": \"123456\",\r\n  \"cargo\": \"Administrador\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/cadastrar",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"cadastrar"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Listar Usuários",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"Ícaro Roberto\",\r\n  \"email\": \"icaro@yahoo.com.br\",\r\n  \"senha\": \"123456\",\r\n  \"cargo\": \"Administrador\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/listar",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"listar"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Buscar Usuário ID",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/{id}",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"{id}"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Senha Hash ID",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/{id}/senha-hash",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"{id}",
-						"senha-hash"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Atualizar Usuário ID",
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"string\",\r\n  \"cargo\": \"string\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/1391418c-4231-4cba-9fc7-71defc3ad13c",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"1391418c-4231-4cba-9fc7-71defc3ad13c"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Desativar Usuário ID",
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "DELETE",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:5058/api/v1/usuarios/{id}",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5058",
-					"path": [
-						"api",
-						"v1",
-						"usuarios",
-						"{id}"
-					]
-				}
-			},
-			"response": []
-		}
-	]
+  "info": {
+    "_postman_id": "b30f0c29-3145-4112-bcc6-b73587f1830b",
+    "name": "API Gestão de Usuários",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54446270",
+    "_collection_link": "https://go.postman.co/collection/54446270-b30f0c29-3145-4112-bcc6-b73587f1830b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Cadastrar Usuários",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Ícaro Roberto\",\r\n  \"email\": \"icaro@yahoo.com.br\",\r\n  \"senha\": \"123456\",\r\n  \"cargo\": \"Administrador\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/cadastrar",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "cadastrar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Usuários",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Ícaro Roberto\",\r\n  \"email\": \"icaro@yahoo.com.br\",\r\n  \"senha\": \"123456\",\r\n  \"cargo\": \"Administrador\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/listar",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "listar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Usuário ID",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/{id}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "{id}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Senha Hash ID",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/{id}/senha-hash",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "{id}",
+            "senha-hash"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Usuário ID",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Ícaro\",\r\n  \"cargo\": \"Supervisor\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/{id}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "{id}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Desativar Usuário ID",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5058/api/v1/usuarios/{id}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5058",
+          "path": [
+            "api",
+            "v1",
+            "usuarios",
+            "{id}"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
 }
