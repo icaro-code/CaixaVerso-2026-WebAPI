@@ -55,6 +55,11 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Configurations/
+ CorsConfig.cs
+ DependencyInjectionConfig.cs
+ JsonConfig.cs
+ SwaggerConfig.cs
 Controllers/UsuarioController.cs
 DTOs/
  UsuarioDto.cs

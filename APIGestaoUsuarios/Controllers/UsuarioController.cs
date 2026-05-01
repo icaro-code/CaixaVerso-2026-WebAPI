@@ -64,6 +64,19 @@ namespace APIGestaoUsuario.Controllers
             return Ok(resposta);
         }
 
+        [HttpGet("{id}/senha-hash")]
+        public async Task<IActionResult> VerificarHash(Guid id)
+        {
+            var usuario = await _service.BuscarPorIdAsync(id);
+            if (usuario == null) return NotFound();
+
+            return Ok(new
+            {
+                Mensagem = "Senha hash não retornar para o cliente",
+                HashDidatico = usuario.SenhaHash
+            });
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Atualizar(Guid id, [FromBody] UsuarioAtualizacaoDto dto, [FromServices] AuditoriaService auditoria)
         {
