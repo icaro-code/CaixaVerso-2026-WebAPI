@@ -1,6 +1,6 @@
 using APIGestaoUsuarios.Interfaces;
 using APIGestaoUsuarios.DTOs;
-using APIGestaoUsuarios.Services; // importar o AuditoriaService
+using APIGestaoUsuarios.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIGestaoUsuario.Controllers

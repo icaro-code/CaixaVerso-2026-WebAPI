@@ -43,7 +43,7 @@ namespace APIGestaoUsuarios.Aplication.Services
             var usuario = await _repo.BuscarPorIdAsync(id);
             if (usuario == null) return null;
 
-            // Atualiza apenas os campos informados
+        
             if (!string.IsNullOrWhiteSpace(nome))
                 usuario.Nome = nome;
 

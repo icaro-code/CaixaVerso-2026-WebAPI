@@ -4,7 +4,6 @@ using APIGestaoUsuarios.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurações organizadas em extensões
 builder.Services.AddControllers(options =>
 {
     options.Filters.Add<ResponseWrapperFilter>();

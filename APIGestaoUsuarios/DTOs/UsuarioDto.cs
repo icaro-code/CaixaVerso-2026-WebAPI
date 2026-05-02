@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace APIGestaoUsuarios.DTOs
 {
-    // Para cadastro
+    
     public class UsuarioCadastroDto
     {
         [Required(ErrorMessage = "O nome é obrigatório")]
@@ -20,7 +20,7 @@ namespace APIGestaoUsuarios.DTOs
         public required string Cargo { get; set; }
     }
 
-    // Para atualização
+    
     public class UsuarioAtualizacaoDto
     {
         public string? Nome { get; set; }
